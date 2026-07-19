@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naduni Piyathilaka — Data Science Undergraduate & Web Developer</title>
+<meta name="description" content="Portfolio of Naduni Piyathilaka, Data Science undergraduate at SLTC Research University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav-logo">NP<span class="cursor">_</span></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#about">about</a>
+    <a href="#education">education</a>
+    <a href="#skills">skills</a>
+    <a href="#projects">projects</a>
+    <a href="#achievements">achievements</a>
+    <a href="#contact">contact</a>
+  </nav>
+  <a href="assets/Naduni_Piyathilaka_CV.pdf" class="btn btn-ghost nav-cv" download>↓ resume.pdf</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      
+      <h1 class="hero-name">Naduni<br>Piyathilaka</h1>
+      <p class="hero-role"><span id="typedRole"></span><span class="cursor">_</span></p>
+      <p class="hero-statement">
+        Hello! I'm Naduni Piyathilaka, an Data Science undergraduate at
+        SLTC Research University. I am passionate about web development, software
+        development, and learning new technologies. I enjoy solving real‑world problems
+        through technology and continuously improving my programming and technical skills.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View projects</a>
+        <a href="assets/Naduni_Piyathilaka_CV.pdf" class="btn btn-outline" download>Download CV</a>
+      </div>
+      <div class="hero-meta">
+        <span>📍 Sri Lanka</span>
+        <span>🎓 SLTC Research University</span>
+        <span>🟢 Open to opportunities</span>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="terminal-frame">
+        <div class="terminal-bar">
+          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+          
+        </div>
+        <div class="terminal-photo">
+          <!-- Replace this SVG block with: <img src="assets/profile.jpg" alt="Naduni Piyathilaka"> -->
+          <img src="assets/profile.jpeg" alt="Naduni Piyathilaka" id="profileImg" onerror="this.style.display='none'; document.getElementById('avatarFallback').style.display='flex';">
+          <div class="avatar-fallback" id="avatarFallback">
+            <span>NP</span>
+            <small>add profile.jpg to /assets</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    
+    <h2 class="section-title">Who I Am</h2>
+    <div class="about-grid">
+      <p class="about-text">
+        I'm currently pursuing a <strong>BSc (Hons) in Data Science</strong> at
+        SLTC Research University, where I've been building a foundation across web
+        development, software engineering, and database systems. I like turning ideas
+        into working products — from small academic projects to full personal
+        websites — and I'm always looking for the next technology worth learning.
+      </p>
+      <div class="fact-card">
+        <div class="fact"><span class="fact-label">Focus</span><span>Web &amp; Software Development</span></div>
+        <div class="fact"><span class="fact-label">Studying</span><span>BSc (Hons) Data Science</span></div>
+        <div class="fact"><span class="fact-label">University</span><span>SLTC Research University</span></div>
+        <div class="fact"><span class="fact-label">Status</span><span>Undergraduate, 2025 – Present</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    
+    <h2 class="section-title">Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3>BSc (Hons) in Data Science</h3>
+            <span class="timeline-date">2025 – Present</span>
+          </div>
+          <p class="timeline-org">SLTC Research University</p>
+          <p class="timeline-desc">Relevant coursework:</p>
+          <div class="tag-row">
+            <span class="tag">Web Development</span>
+            <span class="tag">Programming Fundamentals</span>
+            <span class="tag">Database Management Systems</span>
+            <span class="tag">Professional Practice</span>
+             <span class="tag">Statistics for Data Science</span>
+    <span class="tag">Mathematics for Computing</span>
+    <span class="tag">Python Programming</span>
+            <span class="tag">Entrepreneurship &amp; Start-up Culture</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>Languages</h4>
+        <div class="tag-row">
+          <span class="tag tag-mono">HTML</span>
+          <span class="tag tag-mono">CSS</span>
+          <span class="tag tag-mono">JavaScript</span>
+          <span class="tag tag-mono">Java</span>
+          <span class="tag tag-mono">Python</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Tools &amp; Platforms</h4>
+        <div class="tag-row">
+          <span class="tag tag-mono">MySQL</span>
+          <span class="tag tag-mono">Git &amp; GitHub</span>
+          <span class="tag tag-mono">Visual Studio Code</span>
+          <span class="tag tag-mono">Microsoft Office</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-index">01</span>
+          <div class="tag-row">
+            <span class="tag tag-mono">HTML</span>
+            <span class="tag tag-mono">CSS</span>
+            <span class="tag tag-mono">JavaScript</span>
+          </div>
+        </div>
+        <h3>Portfolio Website</h3>
+        <p>Designed and developed a responsive personal portfolio website to showcase my education, projects, and technical skills.</p>
+        <a href="https://github.com/yourusername/portfolio" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+      
+        
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-index">02</span>
+          <div class="tag-row">
+            <span class="tag tag-mono">HTML</span>
+            
+            <span class="tag tag-mono">python</span>
+          </div>
+        </div>
+        <h3>Mini Project</h3>
+        <p>Completed an academic mini project as part of the university coursework by applying software development concepts.</p>
+       <a href="https://github.com/NaduniPiyathilaka/Tkinter-ToDo-List-Manager/blob/main/README.md" target="_blank">
+    view mini project →
+</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section" id="achievements">
+    
+    <h2 class="section-title">Achievements</h2>
+    <div class="achievement-card achievement-empty">
+      <p>🏆 Certifications and awards will be added here as I complete them.</p>
+      <p class="achievement-hint">(Duplicate this card in the HTML once you have a certificate or award to add.)</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    
+    <h2 class="section-title">Let's Connect</h2>
+    <p class="contact-lead">Feel free to reach out — I'm always happy to talk about projects, opportunities, or new ideas.</p>
+    <div class="contact-grid">
+      <a href="mailto:yourname@gmail.com" class="contact-card">
+        <span class="contact-icon">✉</span>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">cit-25-02-0031@sltc.edu.lk.com</span>
+      </a>
+      <a href="https://github.com/yourusername" class="contact-card" target="_blank" rel="noopener">
+        <span class="contact-icon">⌥</span>
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/NaduniPiyathilaka</span>
+      </a>
+      <a href="https://linkedin.com/in/your-profile" class="contact-card" target="_blank" rel="noopener">
+        <span class="contact-icon">in</span>
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">linkedin.com/in/naduni-piyathilaka-05a175414</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Designed &amp; built by Naduni Piyathilaka · <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
